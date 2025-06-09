@@ -1,0 +1,433 @@
+.input1
+{
+  width: 170px;
+  padding-left: 30px;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-top: 10px;
+  font-family: serif;
+}
+.input1::placeholder{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 11px;
+}
+.heading1
+{
+  margin-top: 10px;
+}
+.butt
+{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 150px;
+}
+.box
+{
+  width: 120px;
+  border: 5px solid blue;
+  z-index: 1;
+}
+.butt1
+{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 520px;
+ 
+}
+.box2
+{
+  width: 120px;
+  
+}
+option
+{
+  font-size: 10px;
+}
+img
+{
+  width: 110px;
+  height: 150px;
+}
+#Thaladiv
+{
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+#Thaladiv img
+{
+  /* border: 2px solid black; */
+}
+#Fivediv
+{
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+
+
+  margin-left: 30px;
+}
+#Eightdiv
+{
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+#hidediv
+{
+  display: none;
+  margin-top: 50px;
+}
+#poster1 .input1
+{
+  visibility: hidden;
+}
+.icon1
+{
+  position: absolute;
+  left: 305px;
+  top: 76px;
+}
+.practice2
+{
+  background-color: red;
+}
+.Mainimage
+{
+  width: 100%;
+  height: 368px;
+}
+.LH 
+{
+   position: absolute;
+   top: 220px;
+   left: 450px;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Loader
+{
+  position: absolute;
+  left: 400px;
+  top: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 8px solid #fff;
+  border-top-color: red;
+  animation: rotate 1s  infinite;
+}
+@keyframes rotate {
+  100%{
+    transform: rotate(0deg);
+  }
+  0%{
+    transform: rotate(-360deg);
+  }
+  
+}
+#poster1
+{
+  width: 762px;
+  height: 1100px;
+  background-color: black;
+}
+.bahu
+{
+  position: absolute;
+  left: 40px;
+  top: 60px;
+  width: 120px;
+  height: 170px;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.5);
+
+}
+.bahuh
+{
+   top: 55px;
+   left: 150px;
+   position: absolute;
+   margin-left: 50px;
+   color: white;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.yearseven 
+{
+  position: absolute;
+  top: 90px;
+  left: 205px;
+  color: white;
+  font-size: 8px;
+}
+.zonerseven
+{
+  position: absolute;
+  top: 105px;
+  left: 205px;
+  color: white;
+  font-size: 12px;
+  font-size: 8px;
+}
+.iconprofile
+{
+  position: absolute;
+  top: 130px;
+  left: 205px;
+  color: white;
+}
+span 
+{
+  position: absolute;
+  top: 133px;
+  left: 222px;
+  color: white;
+  font-size: 8px;
+}
+.iconprofile2
+{
+  position: absolute;
+  top: 150px;
+  left: 205px;
+  color: white;
+}
+.span2 
+{
+  position: absolute;
+  top: 153px;
+  left: 222px;
+  color: white;
+  font-size: 8px;
+}
+.Trailer
+{
+  position: absolute;
+  top: 190px;
+  left: 200px;
+  width: 70px;
+  height: 25px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: rgba(233, 227, 227, 0.6);
+  font-size: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 5px;
+}
+.span3 
+{
+  margin-top: -130px;
+  margin-left: -190px;
+  color: black;
+  font-size: 12px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.video
+{
+  margin-top: 300px;
+  margin-left: -50px;
+  width: 500px;
+  height: 250px;
+  border: 2px solid red;
+}
+.Trailervideo
+{
+  position: absolute;
+  top: 80px;
+  left: 200px;
+  border: 3px solid white;
+  width: 350px;
+  height: 200px;
+  z-index: 0;
+}
+.into 
+{
+  position: absolute;
+  color: black;
+  background-color: white;
+  top: 80px;
+  left: 170px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.yearimg
+{
+  position: absolute;
+  top: 150px;
+  left: 320px;
+  border: 2px solid black;
+}
+@media screen and (max-width: 600px){
+  .Mainimage
+  {
+    width: 535px;
+    height: 951px;
+  }
+  .Loader{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+  }
+  .LH
+  {
+     position: absolute;
+     left: 350px;
+     top: 550px;
+  }
+  .heading1
+  {
+      margin-left: 120px;
+  }
+  .input1 
+  {
+    margin-left: 100px;
+    margin-top: 40px;
+  }
+  .butt
+  {
+    margin-left: 40px;
+  }
+  .butt1
+  {
+    margin-left: 2px;
+  }
+}
+/* .hiderdiv
+{
+  background-color: black;
+} */
+.Mike
+{
+  position: absolute;
+  top: 75px;
+  left: 430px;
+}
+.input1:focus ~ .icon1 {
+  visibility: hidden;
+}
+.input1:focus ~ .Mike 
+{
+  visibility: hidden;
+}
+.box
+{
+  width: 500px;
+}
+.Add
+{
+  position: absolute;
+  display: flex;
+  gap: 5px;
+  top: 25px;
+  left: 550px;
+}
+.Add button
+{
+  font-size: 12px;
+  width: 60px;
+  height: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 5px;
+  /* top: 5px;
+  left: 1000px; */
+}
+.Add button:hover
+{
+   color: red;
+}
+/* .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.review-form textarea {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.review-form input {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.review-form button {
+  margin-right: 10px;
+}
+
+ */
+ .modal-overlay {
+  position: absolute;
+  top: 200px;
+  bottom: 0; /* Stick to the bottom */
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.8); /* Dark background for visibility */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Push to bottom */
+  z-index: 1000; /* Ensure it's above other elements */
+  padding-bottom: 20px; /* Space at the bottom */
+}
+
+.modal-content {
+  position: absolute;
+  top: 300px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px 10px 0 0; /* Rounded top corners */
+  width: 400px; /* Adjust width */
+  color: white; /* Ensure text is visible */
+  text-align: center;
+  position: relative;
+  box-shadow: 0px -5px 10px rgba(255, 255, 255, 0.2);
+}
+.Recommendeddiv
+{
+  position: absolute;
+  top: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+.Recommendeddiv img
+{
+   width: 110px;
+   height: 150px;
+   margin-top: -50px;
+}
+.Recommendeddiv h1 
+{
+   position: absolute;
+   top: -100px;
+   width: 250px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 25px;
+}
+
+

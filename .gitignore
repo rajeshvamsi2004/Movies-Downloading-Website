@@ -1,0 +1,14 @@
+
+videos/
+*.mp4
+*.mkv
+*.avi
+
+
+node_modules/
+
+
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
