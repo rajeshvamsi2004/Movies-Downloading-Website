@@ -3,7 +3,7 @@ section {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: url('C:/Users/vamsi ss/Desktop/Cinema/cinema/public/bg.jpg') no-repeat center/cover;
+  background: url('/bg.jpg') no-repeat center/cover;
 }
 .icon3 
 {
